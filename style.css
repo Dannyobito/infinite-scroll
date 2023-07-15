@@ -35,3 +35,12 @@ body {
 .image-container img {
     width: 100%;
 }
+@media screen and (max-width : 700px) {
+    .title {
+        font-size: 1.2rem;
+        letter-spacing: 4px;
+    }
+    .image-container{
+        margin: 15px;
+    }
+}
